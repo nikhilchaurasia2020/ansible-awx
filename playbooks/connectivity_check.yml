@@ -1,0 +1,11 @@
+---
+- name: connectivity check
+  hosts: all
+  tasks:
+    - name: ping test
+      ping:
+      register: ping_out
+    - name: print result
+      debug:
+        msg: "{{ ping_out }}"
+      when: ping_out is defined and ping_out is not none
