@@ -1,12 +1,12 @@
 ---
-- hosts:
-    all:
-      ubuntu1:
-        anisble_host: 13.233.208.207
-        anisble_port: 2222
-      ubuntu2:
-        anisble_host: 13.233.208.207
-        anisble_port: 2223
+all:
+  hosts:
+    ubuntu1:
+      anisble_host: 13.233.208.207
+      anisble_port: 2222
+    ubuntu2:
+      anisble_host: 13.233.208.207
+      anisble_port: 2223
         #    ubuntu3:
         #      anisble_host: 13.233.208.207
         #      anisble_port: 2224
